@@ -1,0 +1,99 @@
+:root {
+  --yellow: linear-gradient(180deg, #F8D49A -146.42%, #FAD79D -46.42%);
+  --orange: #fca61f;
+  --black: #242d49;
+  --gray: #788097;
+  --purple: linear-gradient(180deg, #BB67FF 0%, #C484F3 100%);
+  --pink: #FF919D;
+  --glass: rgba(255, 255, 255, 0.54);
+  --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
+  --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+  --activeItem: #F8F8FC;
+  --black :rgba(0,0,0,1);
+  --tangaroa:rgba(0,10,61,1);
+  --azure-radiance:rgba(0,140,239,1);
+  --hunter-green:rgba(15,30,13,1);
+ --primary:rgba(42,52,71,1);
+ --pickle-bluewood:rgba(42,52,71,1);
+ --blue-bayoux:rgba(73,87,119,1);
+ --scamp1:rgba(101,94,176,1);
+ --caribean-green-pearl:rgba(104,202,135,1);
+ --secondary:rgba(112,122,141,1);
+ --manatee:rgba(137,144,161,1);
+--snuff:rgba(222,232,251,1);
+--link-water:rgba(239,238,247,1);
+--selago:rgba(222,221,238,1);
+--brink-pink:rgba(240,89,131,1);
+--zircon2:rgba(245,248,255,1);
+--zircon: rgba(255,251,255,1);
+--rose:rgba(255,80,80,1);
+--white::rgba(255,255,255,1)
+--font-size-xs:12px;
+--font-size-s:6px;
+--font-size-m:8px;
+--font-size-l:10px;
+--font-size-xl:14px;
+--font-size-s2:14px;
+--font-size-m2:16px;
+--font-size-l2:20px;
+--font-family-book:'Circular Std-Book';
+--font-family-light:'Circular Std-Light';
+--font-family-medium:'Circular std-Medium';
+--font-family-regular:'Circular Std-Regular';
+--font-family-mont:'Montserrat';
+--font-family-mont-bold:'Montserrat-Bold'
+--font-family-mont-medium:'Montserrat-Medium';
+--font-family-mont-regular:'Montserrat-Regular';
+--font-family-proxima:'Proxima-Nova-Regular';
+
+}
+@font-face {
+  font-family: 'Circular Std-Book' ;
+  font-weight: 400; font-style: normal;
+  src: url('./fonts/Circular\ Std\ Book.ttf')format('opentype');
+}
+@font-face {
+  font-family: 'Circular Std-Medium' ;
+  font-weight: 500; font-style: normal;
+  src: url('./fonts/Circular\ Std\ Medium.ttf')format('opentype');
+}
+@font-face {
+  font-family: 'Circular Std' ;
+ font-style: normal;
+  src: url('./fonts/Circular\ Std\ Font.otf')format('opentype');
+}
+.App {
+  /* padding: 0.5rem 3.5rem; */
+  color: var(--black);
+  background: #E5E5E5;
+  
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+}
+
+.AppGlass {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  background: var(--glass);
+  border-radius: 0.1rem;
+  gap: 16px;
+  grid-template-columns: 11rem auto 20rem;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1200px) {
+  .AppGlass{
+    grid-template-columns: 10% 50% auto;
+    overflow-y: scroll;
+  } 
+}
+
+@media screen and (max-width: 768px) {
+  .AppGlass{
+    grid-template-columns: 1fr;
+  } 
+}

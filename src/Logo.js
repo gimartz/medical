@@ -4,7 +4,7 @@ import logo from './logo.svg';
 
 const spin = keyframes`
   from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  to { transform: rotate(60deg); }
 `;
 
 export const Logo = props => {
@@ -14,5 +14,5 @@ export const Logo = props => {
     ? undefined
     : `${spin} infinite 20s linear`;
 
-  return <Image animation={animation} src={logo} {...props} />;
+  return <Image animation={animation} src={logo} {...props} height='650px'/>;
 };
