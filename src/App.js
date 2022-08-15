@@ -3,7 +3,7 @@ import './App.css'
 import imade from './imgs/not.png'
 import made from './assets/av.png'
 import card1 from './assets/1.png'
-import card2 from './assets/2.png'
+import card2 from './assets/6.png'
 import cov from './assets/cov.png'
 import love from './assets/heart.png'
 import {
@@ -130,15 +130,15 @@ line-Height= '20px' >of 8500 steps</Text></Box>
     alt='Dan Abramov'
   />
 </Flex></GridItem> 
-  <GridItem  colSpan={3} h='10' marginRight={'40px'}  >
+  <GridItem  colSpan={3} h='10' marginRight={'40px'} w='100%' >
   <Flex marginTop={4} direction={'column'}>     
-  <Box direction={'row'}
+  <Box direction={'row'} width='100%'
   ><Text fontStyle= 'normal'
-  fontWeight= '400'
+  fontWeight= '400' fontFamily= 'Circular Std-Medium'
   fontSize= '12px' 
   lineHeight= '20px'>General Health </Text></Box>
   <Text fontFamily= 'Circular Std-Medium' width= '40px'
-height='20px'
+height='20px' marginTop={5} 
 fontStyle= 'normal'
 fontWeight= '400'
 fontSize= '20px' color=' #008CEF'
@@ -160,19 +160,19 @@ lineHeight= '20px'>82%</Text>
   <Image
     boxSize='100px'
     objectFit='cover'
-    src={card1}
+    src={card2}
     alt='Dan Abramov'
   />
 </Flex></GridItem> 
-  <GridItem  colSpan={3} h='10' marginRight={'40px'}  >
+  <GridItem  colSpan={3} h='10'w='100%' marginRight={'40px'}  >
   <Flex marginTop={4} direction={'column'}>     
   <Box direction={'row'}
   ><Text fontStyle= 'normal'
   fontWeight= '400'
-  fontSize= '12px' 
-  lineHeight= '20px'>General Health </Text></Box>
+  fontSize= '12px' fontFamily={'Circular Std-Book'}
+  lineHeight= '20px'>Water Balance </Text></Box>
   <Text fontFamily= 'Circular Std-Medium' width= '40px'
-height='20px'
+height='20px' marginTop={5}
 fontStyle= 'normal'
 fontWeight= '400'
 fontSize= '20px' color=' #008CEF'

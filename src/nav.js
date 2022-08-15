@@ -1,12 +1,11 @@
-import React, { ReactNode } from 'react';
+import React from 'react';
 import {
   IconButton,
-  Avatar,
+ 
   Box,
   CloseButton,
   Flex,
-  HStack,
-  VStack,
+
   Icon,
   useColorModeValue,
   Link,
@@ -14,13 +13,7 @@ import {
   DrawerContent,
   Text,
   useDisclosure,
-  BoxProps,
-  FlexProps,
-  Menu,
-  MenuButton,
-  MenuDivider,
-  MenuItem,
-  MenuList,
+ 
 } from '@chakra-ui/react';
 import {
   FiHome,
@@ -29,11 +22,9 @@ import {
   FiStar,
   FiSettings,
   FiMenu,
-  FiBell,
-  FiChevronDown,
+
 } from 'react-icons/fi';
-import { IconType } from 'react-icons';
-import { ReactText } from 'react';
+
 
 
 const LinkItems = [
